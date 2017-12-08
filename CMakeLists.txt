@@ -68,6 +68,7 @@ add_message_files(
    debug_msg.msg
    obstacle.msg
    pid_message.msg
+   replan.msg
  )
 
 ## Generate services in the 'srv' folder
