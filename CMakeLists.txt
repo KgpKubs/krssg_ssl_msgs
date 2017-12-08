@@ -52,9 +52,9 @@ add_message_files(
   # gr_RobotReplacement.msg
   # gr_Robot_Command.msg
   # gr_BallReplacement.msg
-  # SSL_DetectionFrame.msg
-  # SSL_DetectionRobot.msg
-  # SSL_DetectionBall.msg
+  SSL_DetectionFrame.msg
+  SSL_DetectionRobot.msg
+  SSL_DetectionBall.msg
    BeliefState.msg
   # TacticPacket.msg
   # SSL_Refbox.msg
