@@ -20,6 +20,7 @@ uint8   opp_bot_marking_our_attacker
 bool    ball_at_corners
 bool    ball_in_our_half
 bool    ball_in_our_possession
+SSL_GeometryData geometryData
 
 # add other stuff eg. field geometry, referee signals, bot/ball velocities and acc, score count, predicates, etc.
 # node will have to subscribe to vision, refbox 
