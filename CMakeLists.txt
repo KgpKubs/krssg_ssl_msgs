@@ -52,18 +52,29 @@ add_message_files(
   # gr_RobotReplacement.msg
   # gr_Robot_Command.msg
   # gr_BallReplacement.msg
-  SSL_DetectionFrame.msg
-  SSL_DetectionRobot.msg
-  SSL_DetectionBall.msg
+
+   SSL_WrapperPacket.msg
+ 
+   SSL_DetectionFrame.msg
+   SSL_DetectionRobot.msg
+   SSL_DetectionBall.msg
    BeliefState.msg
-  # TacticPacket.msg
+
   # SSL_Refbox.msg
   # sslDebug_Line.msg
   # sslDebug_Circle.msg
   # sslDebug_Data.msg
+
    point_2d.msg
    planner_path.msg
    point_SF.msg
+
+   SSL_GeometryData.msg
+   SSL_GeometryCameraCalibration.msg
+   SSL_GeometryFieldSize.msg
+   SSL_FieldCircularArc.msg
+   SSL_FieldLineSegment.msg
+   Vector2f.msg
  )
 
 ## Generate services in the 'srv' folder

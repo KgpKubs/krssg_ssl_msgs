@@ -4,4 +4,4 @@ int32 goal_width
 int32 goal_depth
 int32 boundary_width
 SSL_FieldLineSegment[] field_lines
-SSL_FieldCicularArc[] field_arcs
+SSL_FieldCircularArc[] field_arcs
