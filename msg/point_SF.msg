@@ -5,3 +5,4 @@ int64 f_y
 int64 step_size
 int64 bias_param
 int64 max_iteration
+uint8 bot_id
