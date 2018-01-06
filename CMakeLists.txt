@@ -46,36 +46,39 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
    FILES
-  # gr_Commands.msg
-  # gr_Packet.msg
-  # gr_Replacement.msg
-  # gr_RobotReplacement.msg
-  # gr_Robot_Command.msg
-  # gr_BallReplacement.msg
-
-   SSL_WrapperPacket.msg
- 
+   gr_Commands.msg
+   gr_Packet.msg
+   gr_Replacement.msg
+   gr_RobotReplacement.msg
+   gr_Robot_Command.msg
+   gr_BallReplacement.msg
    SSL_DetectionFrame.msg
    SSL_DetectionRobot.msg
    SSL_DetectionBall.msg
    BeliefState.msg
-
-  # SSL_Refbox.msg
-  # sslDebug_Line.msg
-  # sslDebug_Circle.msg
-  # sslDebug_Data.msg
-
+   TacticPacket.msg
+   SSL_Refbox.msg
+   sslDebug_Line.msg
+   sslDebug_Circle.msg
+   sslDebug_Data.msg
    point_2d.msg
    planner_path.msg
    point_SF.msg
-
-   SSL_GeometryData.msg
-   SSL_GeometryCameraCalibration.msg
-   SSL_GeometryFieldSize.msg
-   SSL_FieldCircularArc.msg
-   SSL_FieldLineSegment.msg
-   Vector2f.msg
+   team_info.msg
+   debug_msg.msg
+   obstacle.msg
+   pid_message.msg
+   replan.msg
  )
+
+
+## Generate services in the 'srv' folder
+ add_service_files(
+   FILES
+   path_plan.srv
+#   Service2.srv
+ )
+
 
 ## Generate services in the 'srv' folder
 # add_service_files(
